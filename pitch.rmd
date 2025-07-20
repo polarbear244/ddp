@@ -1,0 +1,41 @@
+---
+title: "Pitch: Luggage Dimension Converter"
+author: "polarbear244"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+runtime: shiny
+---
+
+## Welcome to Our App!
+
+**Luggage Dimension Converter** helps travelers:
+- Convert dimensions from inches to centimeters
+- Calculate total size with ease
+- Ensure compliance with airline luggage restrictions
+
+Built with **Shiny**, simple UI, and intuitive logic.
+
+---
+
+## Problem Statement
+
+Travelers often struggle to:
+- Convert US-size luggage to metric units
+- Understand total luggage dimensions
+- Know whether it fits airline policies
+
+Our app solves all three with instant, reactive feedback.
+
+---
+
+## How It Works
+
+```{r, echo=FALSE}
+numericInput("length", "Length (in):", value = 25)
+numericInput("width", "Width (in):", value = 15)
+numericInput("depth", "Depth (in):", value = 10)
+actionButton("go", "Convert")---
+
+## Thank you!
+
+Your attention is valuable to us
